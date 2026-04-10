@@ -1,3 +1,14 @@
+Metadata-Version: 2.4
+Name: prepx
+Version: 0.1.0
+Summary: One-line DataFrame cleaning and EDA for pandas.
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=1.3
+Requires-Dist: numpy>=1.21
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+
 # prepx
 
 One-line cleaning **and** exploratory data analysis for pandas DataFrames.
