@@ -11,7 +11,25 @@ eda_report = eda(cleaned_df, target="price")
 
 ---
 
+## Features
+
+- **Automated Data Cleaning**: Handle duplicates, missing values, outliers, and more with a single function call
+- **Smart Type Inference**: Automatically convert columns to numeric or datetime when possible
+- **Column Standardization**: Auto-rename columns to snake_case
+- **Outlier Detection**: Identify and cap outliers using IQR or Z-score methods
+- **Full EDA Reports**: Generate comprehensive exploratory analysis with statistics, correlations, and warnings
+- **Target Analysis**: When a target column is specified, includes class balance and feature correlations
+- **Programmatic Access**: All report data is returned as dicts for further processing
+
+---
+
 ## Installation
+
+```bash
+pip install prepx
+```
+
+Or install from source:
 
 ```bash
 pip install .
